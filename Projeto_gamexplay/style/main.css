@@ -121,6 +121,8 @@ header nav a:hover{
 .carrosel-jogos .titulo{
     text-align: center;
     margin-bottom: 5px;
+    font-family: 'Arial Black', Times;
+    color: var(--vermelho);
 }
 
 .carrosel-canais{
@@ -129,7 +131,8 @@ header nav a:hover{
 .carrosel-canais .titulo{
     text-align: center;
     margin-bottom: 5px;
-    color:white;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
 }
 
 .header .container i{
