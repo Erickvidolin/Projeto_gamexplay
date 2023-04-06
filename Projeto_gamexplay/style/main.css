@@ -42,10 +42,9 @@ header nav a:hover{
 }
 
 /*Filme principal*/
-
 .jogo-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)), url('/img/hotizonprincipal.webp');
+    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)), url('./img/hotizonprincipal.webp');
 
     height:400px;
     background-size: cover;
@@ -106,12 +105,14 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    border-radius: 30px;
 }
 
 .box-canais{
     height: 100%;
     width: 100%;
     display: block;
+    border-radius: 30px;
 }
 
 .carrosel-jogos{
@@ -140,15 +141,18 @@ header nav a:hover{
 }
 
 .jogo{
+    background-color: transparent;
     border:none;
     cursor: pointer;
 }
 
 .canal{
+   
     border:none;
     cursor: pointer;
-    background-color:rgba(0,0,0,.50);
+    background-color:transparent;
     color: white;
 
 }
+
 
